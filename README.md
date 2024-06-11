@@ -1,6 +1,6 @@
 # VBA-Challenge-Data-Analytics-Course- Sub VBAscriptingchallenge2()
 'I used chatGPT to help debug this. Some key things it helped me on was correctly defining the variables of POpensum and PClosesum as doubles instead of long, how to format integers to be easier to read, like .format "#,##0", "0.00%", and Round(QChange, 3). I worked on this assignment in person with Natalie Raver-Goldsby who is also in this class.'
-'make this applicable to any worksheet'
+'make this applicable to any worksheet''Also for some reason it wouldn't let me add screenshots, as requested in the rubric, for easy access to the final results so I made a drop box link which can be found here https://www.dropbox.com/scl/fo/anuz2iuayup24s02ppr2l/AFxiVXKrnQBus1Bd8PRwdRg?rlkey=f81dm5c1ec5ejwmvtnwowpod6&st=x336lx8j&dl=0'
 Dim ws As Worksheet
 For Each ws In ThisWorkbook.Sheets
 
